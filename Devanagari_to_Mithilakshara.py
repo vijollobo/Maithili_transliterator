@@ -87,16 +87,15 @@ mithilakshara={
 '6':'𑓖',
 '7':'𑓗',
 '8':'𑓘',
-'9':'𑓙'} #print(a.replace('\t','\':\'').replace('\n','\',\n\''))
-print({value: key for key, value in mithilakshara.items()})
+'9':'𑓙'}
 
-with open(r'Maithili_dev.txt','r', encoding='utf-8') as f:
-    mith_txt=''
-    for i in "ऋषभ":#f.read():
-        if i in mithilakshara:
-            mith_txt+=str(mithilakshara[i])
-        else:
-            mith_txt+=str(i)
+mith_txt=''
+for i in input("Enter text in Devanagari Script : ":
+    if i in mithilakshara:
+        mith_txt+=str(mithilakshara[i])
+    else:
+        mith_txt+=str(i)
 
 print(mith_txt)
+
 
