@@ -32,7 +32,8 @@ It provides script conversion utilities between Devanagari and Mithilakshara alo
 .
 ├── devanagari_to_mithilakshara.py   # Module for converting Devanagari script to Mithilakshara.
 ├── mithilakshara_to_devanagari.py   # Module for converting Mithilakshara script to Devanagari.
-└── Maithili.py                      # Main Streamlit frontend application with trilingual support (English, Maithili-Devanagari, Maithili-Mithilakshara).
+├──  Maithili.py                     # Main Streamlit frontend application with trilingual support (English, Maithili-Devanagari, Maithili-Mithilakshara).
+└── Maithili lexicon.xlsx            # An excel file consisting of Devanagari characters and their corresponding Mithilakshara characters.
 ```
 
 ## Installation
