@@ -15,6 +15,10 @@ A simple trilingual web app built with Streamlit that allows switching the app i
 
 It provides script conversion utilities between Devanagari and Mithilakshara along with a user-friendly Streamlit frontend.
 
+## Live Demo
+You can try the app directly here: [Maithili Transliterator](https://maithilitransliterator.streamlit.app/)
+
+
 ##  Features
 - Transliterate Maithili text between **Devanagari** and **Mithilakshara**.  
 - Trilingual interface with a dropdown for switching between:  
